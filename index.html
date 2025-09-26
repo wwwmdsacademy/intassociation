@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="generator" content="GrapesJS Studio">
+  <link rel="stylesheet" href="./style.css">
+  </head>
+  <body><section id="hero-experts" aria-label="Hero Section — Международная группа экспертов" class="gjs-t-body"><figure aria-hidden="true" id="iymj" class="hero-bg"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22architecture%20modern%20skyscrapers%20at%20dusk%2C%20blue%20hour%2C%20city%20skyline%2C%20blue%20tones%22&amp;w=1280&amp;h=720" alt="Панорама современных небоскрёбов на фоне вечернего неба" loading="lazy" decoding="async" width="1920" height="1080" id="ii8m" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22architecture%20modern%20skyscrapers%20at%20dusk%2C%20blue%20hour%2C%20city%20skyline%2C%20blue%20tones%22&amp;w=1920&amp;h=1080" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22architecture%20modern%20skyscrapers%20at%20dusk%2C%20blue%20hour%2C%20city%20skyline%2C%20blue%20tones%22&amp;w=1280&amp;h=720" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22architecture%20modern%20skyscrapers%20at%20dusk%2C%20blue%20hour%2C%20city%20skyline%2C%20blue%20tones%22&amp;w=800&amp;h=450"/></figure><div aria-hidden="true" id="ijfa" class="hero-overlay"></div><div id="il4g" class="hero-inner"><h1 id="ij6x6" class="gjs-t-h1 fade-seq fade-1">Присоединяйтесь к международной группе экспертов бесплатно</h1><p id="il52i" class="gjs-t-h2 subtitle fade-seq fade-2">
+      Архитекторы, дизайнеры, инженеры и программисты объединяются для совместных проектов и обучения
+    </p><div id="il7nh" class="cta fade-seq fade-3"><a href="https://wa.me/?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%83%D1%8E%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%83%20%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BE%D0%B2%20(%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F)" target="_blank" rel="noopener noreferrer" aria-label="Вступить в группу — WhatsApp (Россия)" id="iwiug" class="gjs-t-button btn btn-accent"><img src="https://api.iconify.design/mdi:whatsapp.svg?color=currentColor&amp;width=22&amp;height=22" alt="Иконка WhatsApp" width="22" height="22" id="ii7r5"/><span id="iugdj">Вступить в группу</span></a><a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Присоединиться в Казахстане — Telegram" id="i8teg" class="gjs-t-button btn btn-outline"><img src="https://api.iconify.design/mdi:telegram.svg?color=currentColor&amp;width=22&amp;height=22" alt="Иконка Telegram" width="22" height="22" id="ie25m"/><span id="ifwhc">Присоединиться в Казахстане</span></a></div></div><script id="i6yrz">
+    (function () {
+      var root = document.getElementById('hero-experts');
+      var img = root ? root.querySelector('.hero-bg img') : null;
+
+      // Choose optimal image by viewport width (no srcset)
+      if (img) {
+        try {
+          var w = window.innerWidth || document.documentElement.clientWidth || 1024;
+          var nextSrc = img.getAttribute('data-src-desktop');
+          if (w <= 480) nextSrc = img.getAttribute('data-src-mobile');
+          else if (w <= 992) nextSrc = img.getAttribute('data-src-tablet');
+          if (nextSrc && img.src !== nextSrc) img.src = nextSrc;
+        } catch (e) {}
+      }
+
+      // Reveal animations
+      if (!('IntersectionObserver' in window) || !root) {
+        if (root) root.classList.add('is-visible');
+        return;
+      }
+      var obs = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            root.classList.add('is-visible');
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      obs.observe(root);
+    })();
+  </script></section><section id="mission-infographic" aria-label="О нас — Инфографика о миссии" class="gjs-t-body"><div class="inner"><div class="icons-grid"><article aria-label="Направление: Архитектура" class="item fade-seq fade-1"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:blueprint.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Архитектура" class="icon"/></div><p class="label">Архитектура</p></article><article aria-label="Направление: Дизайн" class="item fade-seq fade-2"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:palette-outline.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Дизайн" class="icon"/></div><p class="label">Дизайн</p></article><article aria-label="Направление: Инжиниринг" class="item fade-seq fade-3"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:cog-outline.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Инжиниринг" class="icon"/></div><p class="label">Инжиниринг</p></article><article aria-label="Направление: Программирование" class="item fade-seq fade-4"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:code-tags.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Программирование" class="icon"/></div><p class="label">Программирование</p></article></div><p class="gjs-t-h2 tagline fade-seq fade-5">Мы соединяем профессионалов разных сфер, чтобы находить заказы, обмениваться опытом и создавать будущее</p></div><script>
+    (function () {
+      var root = document.getElementById('mission-infographic');
+      if (!root || !('IntersectionObserver' in window)) {
+        if (root) root.classList.add('is-visible');
+        return;
+      }
+      var obs = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            root.classList.add('is-visible');
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      obs.observe(root);
+    })();
+  </script></section><section id="portfolio-section" aria-label="Наши проекты (Портфолио)" class="gjs-t-body"><div class="inner"><h2 class="gjs-t-h1 section-title fade-seq fade-1">Наши проекты</h2><div aria-label="Галерея проектов" class="slider-wrap fade-seq fade-2"><button type="button" aria-label="Предыдущие проекты" disabled class="nav-btn nav-prev"><img src="https://api.iconify.design/mdi:chevron-left.svg?color=currentColor&amp;width=22&amp;height=22" alt="Стрелка влево" width="22" height="22"/></button><div aria-live="polite" class="viewport"><ul role="list" class="track"><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22residential%20complex%20exterior%20evening%20modern%20architecture%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22residential%20complex%20exterior%20evening%20modern%20architecture%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22residential%20complex%20exterior%20evening%20modern%20architecture%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22residential%20complex%20exterior%20evening%20modern%20architecture%22&amp;w=480&amp;h=360" alt="Жилой комплекс — современный фасад на закате" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">Жилой комплекс, Москва</p></li><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22modern%20office%20hub%20glass%20building%20interior%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22modern%20office%20hub%20glass%20building%20interior%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22modern%20office%20hub%20glass%20building%20interior%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22modern%20office%20hub%20glass%20building%20interior%22&amp;w=480&amp;h=360" alt="Офисный хаб — современные рабочие пространства" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">Офисный хаб, Санкт-Петербург</p></li><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22coworking%20space%20open%20plan%20with%20people%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22coworking%20space%20open%20plan%20with%20people%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22coworking%20space%20open%20plan%20with%20people%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22coworking%20space%20open%20plan%20with%20people%22&amp;w=480&amp;h=360" alt="Коворкинг-центр — открытая планировка и рабочие зоны" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">Коворкинг-центр, Алматы</p></li><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22technology%20park%20building%20modern%20facade%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22technology%20park%20building%20modern%20facade%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22technology%20park%20building%20modern%20facade%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22technology%20park%20building%20modern%20facade%22&amp;w=480&amp;h=360" alt="Технопарк — современный инновационный комплекс" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">Технопарк, Астана</p></li><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22school%20renovation%20architecture%20interior%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22school%20renovation%20architecture%20interior%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22school%20renovation%20architecture%20interior%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22school%20renovation%20architecture%20interior%22&amp;w=480&amp;h=360" alt="Реконструкция школы — обновлённые пространства" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">Реконструкция школы, Казань</p></li><li role="listitem" class="card"><figure class="thumb"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22tech%20campus%20architecture%20sunset%20modern%22&amp;w=640&amp;h=480" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22tech%20campus%20architecture%20sunset%20modern%22&amp;w=800&amp;h=600" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22tech%20campus%20architecture%20sunset%20modern%22&amp;w=640&amp;h=480" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22tech%20campus%20architecture%20sunset%20modern%22&amp;w=480&amp;h=360" alt="IT-кампус — современные корпуса и общественные зоны" loading="lazy" decoding="async" width="800" height="600"/></figure><p class="caption">IT-кампус, Новосибирск</p></li></ul></div><button type="button" aria-label="Следующие проекты" class="nav-btn nav-next"><img src="https://api.iconify.design/mdi:chevron-right.svg?color=currentColor&amp;width=22&amp;height=22" alt="Стрелка вправо" width="22" height="22"/></button></div><div aria-label="Этапы работы" class="steps fade-seq fade-3"><div aria-label="Этап 1 — Заявка" class="step"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:form-textbox.svg?color=currentColor&amp;width=30&amp;height=30" alt="Иконка Заявка" width="30" height="30"/></div><p class="step-label">Заявка</p></div><div aria-hidden="true" class="arrow"><img src="https://api.iconify.design/mdi:arrow-right-bold.svg?color=%23ffb347&amp;width=28&amp;height=28" alt="Стрелка вправо" width="28" height="28"/></div><div aria-label="Этап 2 — Обсуждение" class="step"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:chat-processing-outline.svg?color=currentColor&amp;width=30&amp;height=30" alt="Иконка Обсуждение" width="30" height="30"/></div><p class="step-label">Обсуждение</p></div><div aria-hidden="true" class="arrow"><img src="https://api.iconify.design/mdi:arrow-right-bold.svg?color=%23ffb347&amp;width=28&amp;height=28" alt="Стрелка вправо" width="28" height="28"/></div><div aria-label="Этап 3 — Реализация" class="step"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:hammer-wrench.svg?color=currentColor&amp;width=30&amp;height=30" alt="Иконка Реализация" width="30" height="30"/></div><p class="step-label">Реализация</p></div><div aria-hidden="true" class="arrow"><img src="https://api.iconify.design/mdi:arrow-right-bold.svg?color=%23ffb347&amp;width=28&amp;height=28" alt="Стрелка вправо" width="28" height="28"/></div><div aria-label="Этап 4 — Результат" class="step"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:check-circle-outline.svg?color=currentColor&amp;width=30&amp;height=30" alt="Иконка Результат" width="30" height="30"/></div><p class="step-label">Результат</p></div></div><p class="gjs-t-h2 tagline fade-seq fade-4">Каждый член ассоциации получает доступ к реальным проектам и заказам</p></div><script>
+    (function(){
+      var section = document.getElementById('portfolio-section');
+
+      // Image optimization per viewport width (no srcset)
+      try {
+        var w = window.innerWidth || document.documentElement.clientWidth || 1024;
+        var imgs = section ? section.querySelectorAll('img[data-src-desktop]') : [];
+        imgs.forEach(function(img){
+          var nextSrc = img.getAttribute('data-src-desktop');
+          if (w <= 480) nextSrc = img.getAttribute('data-src-mobile');
+          else if (w <= 992) nextSrc = img.getAttribute('data-src-tablet');
+          if (nextSrc && img.src !== nextSrc) img.src = nextSrc;
+        });
+      } catch (e) {}
+
+      // Reveal animation on scroll
+      if (!section || !('IntersectionObserver' in window)) {
+        if (section) section.classList.add('is-visible');
+      } else {
+        var obs = new IntersectionObserver(function(entries, observer){
+          entries.forEach(function(entry){
+            if (entry.isIntersecting) {
+              section.classList.add('is-visible');
+              observer.disconnect();
+            }
+          });
+        }, { threshold: 0.25 });
+        obs.observe(section);
+      }
+
+      // Slider logic
+      var viewport = section ? section.querySelector('.viewport') : null;
+      var track = section ? section.querySelector('.track') : null;
+      var cards = track ? Array.prototype.slice.call(track.children) : [];
+      var prevBtn = section ? section.querySelector('.nav-prev') : null;
+      var nextBtn = section ? section.querySelector('.nav-next') : null;
+      var current = 0;
+      var itemsPerView = 3;
+      var gap = 20; // approximates 1.25rem
+
+      function getItemsPerView() {
+        var width = window.innerWidth || document.documentElement.clientWidth || 1024;
+        if (width <= 480) return 1;
+        if (width <= 992) return 2;
+        return 3;
+      }
+
+      function layout() {
+        if (!viewport || !track) return;
+        itemsPerView = getItemsPerView();
+        var vw = viewport.clientWidth;
+        var totalGap = gap * (itemsPerView - 1);
+        var cardWidth = Math.max(160, Math.floor((vw - totalGap) / itemsPerView));
+        cards.forEach(function(card){ card.style.width = cardWidth + 'px'; });
+        // Update bounds
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        if (current > maxIndex) current = maxIndex;
+        translate();
+        updateNav();
+      }
+
+      function translate() {
+        if (!track || !viewport) return;
+        var card = cards[0];
+        var cardWidth = card ? card.getBoundingClientRect().width : 0;
+        var offset = current * (cardWidth + gap);
+        track.style.transform = 'translateX(' + (-offset) + 'px)';
+      }
+
+      function updateNav() {
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        if (prevBtn) prevBtn.disabled = current <= 0;
+        if (nextBtn) nextBtn.disabled = current >= maxIndex;
+      }
+
+      function next() { var maxIndex = Math.max(0, cards.length - itemsPerView); if (current < maxIndex) { current++; translate(); updateNav(); } }
+      function prev() { if (current > 0) { current--; translate(); updateNav(); } }
+
+      if (prevBtn) prevBtn.addEventListener('click', prev);
+      if (nextBtn) nextBtn.addEventListener('click', next);
+      window.addEventListener('resize', function(){ layout(); });
+
+      // Initialize after a tick to ensure sizes
+      setTimeout(layout, 0);
+    })();
+  </script><section id="learning-mentorship" aria-label="Обучение и наставничество" class="gjs-t-body"><div class="inner"><h2 class="gjs-t-h1 section-title fade-seq fade-1">Развивайтесь вместе с нами</h2><div aria-label="Программы обучения и наставничества" class="cards-grid fade-seq fade-2"><article aria-label="Онлайн-курс «Вдохновение» (бесплатно)" class="card"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:laptop-play.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка онлайн-курса" class="icon"/></div><p class="label">Онлайн-курс «Вдохновение»</p><p class="desc">Бесплатный вводный модуль с практикой и обратной связью от сообщества.</p></article><article aria-label="Наставничество от практиков" class="card"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:account-tie-outline.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка наставничества" class="icon"/></div><p class="label">Наставничество от практиков</p><p class="desc">Индивидуальный разбор проектов, карьерные советы и рост через реальные задачи.</p></article><article aria-label="Технологии и инструменты" class="card"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:cube-outline.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка технологий" class="icon"/></div><p class="label">Технологии</p><p class="desc">ArchiCAD, 3Ds Max, Corona, Homestyler, AI‑инструменты — от моделинга до визуализации.</p></article></div><div id="ie33mk" class="cta fade-seq fade-3"><a href="https://wa.me/?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%B2%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9%20%D0%BA%D1%83%D1%80%D1%81%20%D0%B1%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D0%BE" target="_blank" rel="noopener noreferrer" aria-label="Записаться на вводный курс бесплатно" class="gjs-t-button cta-btn"><img src="https://api.iconify.design/mdi:school-outline.svg?color=currentColor&amp;width=22&amp;height=22" width="22" height="22" alt="Иконка обучения"/><span>Записаться на вводный курс бесплатно</span></a></div></div><script>
+    (function () {
+      var root = document.getElementById('learning-mentorship');
+      if (!root || !('IntersectionObserver' in window)) {
+        if (root) root.classList.add('is-visible');
+        return;
+      }
+      var obs = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            root.classList.add('is-visible');
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      obs.observe(root);
+    })();
+  </script></section><section id="social-mission" aria-label="Социальная миссия" class="gjs-t-body"><div class="inner"><h2 class="gjs-t-h1 section-title fade-seq fade-1">Социальная миссия</h2><div class="content fade-seq fade-2"><div aria-label="Инфографика социальной миссии" class="icons-grid"><article aria-label="Направление: Дети" class="item"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:human-child.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Дети" class="icon"/></div><p class="label">Дети</p></article><article aria-label="Направление: Сообщество" class="item"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:account-group-outline.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Сообщество" class="icon"/></div><p class="label">Сообщество</p></article><article aria-label="Направление: Развитие" class="item"><div class="icon-wrap"><img src="https://api.iconify.design/mdi:trending-up.svg?color=currentColor&amp;width=30&amp;height=30" width="30" height="30" alt="Иконка Развитие" class="icon"/></div><p class="label">Развитие</p></article></div><div class="text-block"><p class="gjs-t-h2 tagline">
+          Мы поддерживаем социальные проекты, объединяем экспертов для образовательных и благотворительных инициатив
+        </p></div></div></div><script>
+    (function () {
+      var root = document.getElementById('social-mission');
+      if (!root || !('IntersectionObserver' in window)) {
+        if (root) root.classList.add('is-visible');
+        return;
+      }
+      var obs = new IntersectionObserver(function (entries, observer) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            root.classList.add('is-visible');
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      obs.observe(root);
+    })();
+  </script></section><section id="member-testimonials" aria-label="Отзывы участников" class="gjs-t-body"><div class="inner"><h2 class="gjs-t-h1 section-title fade-seq fade-1">Отзывы участников</h2><div aria-label="Слайдер с отзывами" class="slider-wrap fade-seq fade-2"><button type="button" aria-label="Предыдущие отзывы" disabled class="nav-btn nav-prev"><img src="https://api.iconify.design/mdi:chevron-left.svg?color=currentColor&amp;width=22&amp;height=22" alt="Стрелка влево" width="22" height="22"/></button><div aria-live="polite" tabindex="0" class="viewport gjs-t-border"><ul role="list" class="track"><li role="listitem" class="card"><div class="head"><div class="avatar"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22male%20architect%20portrait%20in%20office%20professional%20headshot%20natural%20light%22&amp;w=260&amp;h=260" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22male%20architect%20portrait%20in%20office%20professional%20headshot%20natural%20light%22&amp;w=320&amp;h=320" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22male%20architect%20portrait%20in%20office%20professional%20headshot%20natural%20light%22&amp;w=260&amp;h=260" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22male%20architect%20portrait%20in%20office%20professional%20headshot%20natural%20light%22&amp;w=200&amp;h=200" alt="Фото: Иван, архитектор" width="320" height="320" loading="lazy" decoding="async"/></div><div class="who"><p class="name">Иван</p><p class="role">Архитектор</p></div></div><blockquote class="quote"><img src="https://api.iconify.design/mdi:format-quote-open.svg?color=%23ffb347&amp;width=22&amp;height=22" alt="Иконка кавычек" width="22" height="22" class="quote-icon"/><p>«Благодаря ассоциации я нашёл подрядчиков в Казахстане»</p></blockquote></li><li role="listitem" class="card"><div class="head"><div class="avatar"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22female%20interior%20designer%20portrait%20in%20studio%20professional%20headshot%20natural%20light%22&amp;w=260&amp;h=260" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22female%20interior%20designer%20portrait%20in%20studio%20professional%20headshot%20natural%20light%22&amp;w=320&amp;h=320" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22female%20interior%20designer%20portrait%20in%20studio%20professional%20headshot%20natural%20light%22&amp;w=260&amp;h=260" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22female%20interior%20designer%20portrait%20in%20studio%20professional%20headshot%20natural%20light%22&amp;w=200&amp;h=200" alt="Фото: Айгуль, дизайнер" width="320" height="320" loading="lazy" decoding="async"/></div><div class="who"><p class="name">Айгуль</p><p class="role">Дизайнер</p></div></div><blockquote class="quote"><img src="https://api.iconify.design/mdi:format-quote-open.svg?color=%23ffb347&amp;width=22&amp;height=22" alt="Иконка кавычек" width="22" height="22" class="quote-icon"/><p>«Получила наставничество и вышла на международные проекты»</p></blockquote></li><li role="listitem" class="card"><div class="head"><div class="avatar"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22male%20engineer%20portrait%20in%20industrial%20office%20professional%20headshot%22&amp;w=260&amp;h=260" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22male%20engineer%20portrait%20in%20industrial%20office%20professional%20headshot%22&amp;w=320&amp;h=320" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22male%20engineer%20portrait%20in%20industrial%20office%20professional%20headshot%22&amp;w=260&amp;h=260" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22male%20engineer%20portrait%20in%20industrial%20office%20professional%20headshot%22&amp;w=200&amp;h=200" alt="Фото: Дмитрий, инженер" width="320" height="320" loading="lazy" decoding="async"/></div><div class="who"><p class="name">Дмитрий</p><p class="role">Инженер</p></div></div><blockquote class="quote"><img src="https://api.iconify.design/mdi:format-quote-open.svg?color=%23ffb347&amp;width=22&amp;height=22" alt="Иконка кавычек" width="22" height="22" class="quote-icon"/><p>«Нашёл партнёров по BIM и ускорил проекты на 30%»</p></blockquote></li><li role="listitem" class="card"><div class="head"><div class="avatar"><img src="https://app.grapesjs.com/api/assets/random-image?query=%22female%20software%20developer%20portrait%20in%20coworking%20space%20professional%20headshot%22&amp;w=260&amp;h=260" data-src-desktop="https://app.grapesjs.com/api/assets/random-image?query=%22female%20software%20developer%20portrait%20in%20coworking%20space%20professional%20headshot%22&amp;w=320&amp;h=320" data-src-tablet="https://app.grapesjs.com/api/assets/random-image?query=%22female%20software%20developer%20portrait%20in%20coworking%20space%20professional%20headshot%22&amp;w=260&amp;h=260" data-src-mobile="https://app.grapesjs.com/api/assets/random-image?query=%22female%20software%20developer%20portrait%20in%20coworking%20space%20professional%20headshot%22&amp;w=200&amp;h=200" alt="Фото: Мария, разработчик" width="320" height="320" loading="lazy" decoding="async"/></div><div class="who"><p class="name">Мария</p><p class="role">Разработчик</p></div></div><blockquote class="quote"><img src="https://api.iconify.design/mdi:format-quote-open.svg?color=%23ffb347&amp;width=22&amp;height=22" alt="Иконка кавычек" width="22" height="22" class="quote-icon"/><p>«Сообщество помогло собрать портфолио и получить первый зарубежный заказ»</p></blockquote></li></ul></div><button type="button" aria-label="Следующие отзывы" class="nav-btn nav-next"><img src="https://api.iconify.design/mdi:chevron-right.svg?color=currentColor&amp;width=22&amp;height=22" alt="Стрелка вправо" width="22" height="22"/></button></div><div aria-label="Навигация по отзывам" class="dots fade-seq fade-3"></div></div><script>
+    (function(){
+      var section = document.getElementById('member-testimonials');
+
+      // Reveal animation
+      if (!('IntersectionObserver' in window) || !section) {
+        if (section) section.classList.add('is-visible');
+      } else {
+        var obs = new IntersectionObserver(function(entries, observer){
+          entries.forEach(function(entry){
+            if (entry.isIntersecting) {
+              section.classList.add('is-visible');
+              observer.disconnect();
+            }
+          });
+        }, { threshold: 0.25 });
+        obs.observe(section);
+      }
+
+      if (!section) return;
+
+      // Choose optimal image size by viewport width (no srcset)
+      try {
+        var w = window.innerWidth || document.documentElement.clientWidth || 1024;
+        var imgs = section.querySelectorAll('img[data-src-desktop]');
+        imgs.forEach(function(img){
+          var nextSrc = img.getAttribute('data-src-desktop');
+          if (w <= 480) nextSrc = img.getAttribute('data-src-mobile');
+          else if (w <= 992) nextSrc = img.getAttribute('data-src-tablet');
+          if (nextSrc && img.src !== nextSrc) img.src = nextSrc;
+        });
+      } catch (e) {}
+
+      // Slider logic
+      var viewport = section.querySelector('.viewport');
+      var track = section.querySelector('.track');
+      var cards = track ? Array.prototype.slice.call(track.children) : [];
+      var prevBtn = section.querySelector('.nav-prev');
+      var nextBtn = section.querySelector('.nav-next');
+      var dotsWrap = section.querySelector('.dots');
+
+      var current = 0;
+      var itemsPerView = 2;
+      var gap = 20; // approximates 1.25rem
+
+      function getItemsPerView() {
+        var width = window.innerWidth || document.documentElement.clientWidth || 1024;
+        if (width <= 992) return 1;
+        return 2;
+      }
+
+      function layout(){
+        if (!viewport || !track) return;
+        itemsPerView = getItemsPerView();
+        var vw = viewport.clientWidth;
+        var totalGap = gap * (itemsPerView - 1);
+        var cardWidth = Math.max(220, Math.floor((vw - totalGap) / itemsPerView));
+        cards.forEach(function(card){ card.style.width = cardWidth + 'px'; });
+
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        if (current > maxIndex) current = maxIndex;
+
+        buildDots();
+        translate();
+        updateNav();
+      }
+
+      function translate(){
+        if (!track || !viewport) return;
+        var first = cards[0];
+        var cardWidth = first ? first.getBoundingClientRect().width : 0;
+        var offset = current * (cardWidth + gap);
+        track.style.transform = 'translateX(' + (-offset) + 'px)';
+        setActiveDot(current);
+      }
+
+      function updateNav(){
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        if (prevBtn) prevBtn.disabled = current <= 0;
+        if (nextBtn) nextBtn.disabled = current >= maxIndex;
+      }
+
+      function next(){
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        if (current < maxIndex) { current++; translate(); updateNav(); }
+      }
+      function prev(){
+        if (current > 0) { current--; translate(); updateNav(); }
+      }
+
+      function buildDots(){
+        if (!dotsWrap) return;
+        dotsWrap.innerHTML = '';
+        var maxIndex = Math.max(0, cards.length - itemsPerView);
+        for (var i = 0; i <= maxIndex; i++){
+          var btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'dot' + (i === current ? ' is-active' : '');
+          btn.setAttribute('aria-label', 'Перейти к отзывам ' + (i + 1));
+          if (i === current) btn.setAttribute('aria-current', 'true');
+          (function(index){
+            btn.addEventListener('click', function(){
+              current = index;
+              translate();
+              updateNav();
+            });
+          })(i);
+          dotsWrap.appendChild(btn);
+        }
+      }
+      function setActiveDot(index){
+        if (!dotsWrap) return;
+        var dots = dotsWrap.querySelectorAll('.dot');
+        dots.forEach(function(d, i){
+          if (i === index) { d.classList.add('is-active'); d.setAttribute('aria-current', 'true'); }
+          else { d.classList.remove('is-active'); d.removeAttribute('aria-current'); }
+        });
+      }
+
+      if (prevBtn) prevBtn.addEventListener('click', prev);
+      if (nextBtn) nextBtn.addEventListener('click', next);
+
+      // Keyboard navigation
+      if (viewport) {
+        viewport.addEventListener('keydown', function(e){
+          if (e.key === 'ArrowLeft') prev();
+          if (e.key === 'ArrowRight') next();
+        });
+      }
+
+      window.addEventListener('resize', layout);
+      setTimeout(layout, 0);
+    })();
+  </script></section><section id="cta-join-today" aria-label="Призыв к действию (CTA)" class="gjs-t-body"><div class="inner"><h2 class="gjs-t-h1 fade-seq fade-1">Вступайте в наше сообщество уже сегодня</h2><div class="cta fade-seq fade-2"><a href="https://wa.me/?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%B8%D1%82%D1%8C%20%D0%B2%20%D0%BC%D0%B5%D0%B6%D0%B4%D1%83%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%83%D1%8E%20%D0%B3%D1%80%D1%83%D0%BF%D0%BF%D1%83%20%D1%8D%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BE%D0%B2%20(%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F)" target="_blank" rel="noopener noreferrer" aria-label="Вступить через WhatsApp (Россия)" class="gjs-t-button btn btn-accent"><img src="https://api.iconify.design/mdi:whatsapp.svg?color=currentColor&amp;width=22&amp;height=22" alt="Иконка WhatsApp" width="22" height="22"/><span>WhatsApp (Россия)</span></a><a href="https://t.me/" target="_blank" rel="noopener noreferrer" aria-label="Присоединиться через Telegram (Казахстан)" class="gjs-t-button btn btn-outline"><img src="https://api.iconify.design/mdi:telegram.svg?color=currentColor&amp;width=22&amp;height=22" alt="Иконка Telegram" width="22" height="22"/><span>Telegram (Казахстан)</span></a></div></div><script>
+    (function(){
+      var root = document.getElementById('cta-join-today');
+      if (!root || !('IntersectionObserver' in window)) {
+        if (root) root.classList.add('is-visible');
+        return;
+      }
+      var obs = new IntersectionObserver(function(entries, observer){
+        entries.forEach(function(entry){
+          if (entry.isIntersecting) {
+            root.classList.add('is-visible');
+            observer.disconnect();
+          }
+        });
+      }, { threshold: 0.25 });
+      obs.observe(root);
+    })();
+  </script></section></section></body>
+</html>
