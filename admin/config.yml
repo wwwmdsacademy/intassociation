@@ -1,0 +1,18 @@
+backend:
+  name: github
+  repo: wwwmdsacademy/intassociation  # ваш репозиторий
+  branch: main  
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "pages"
+    label: "Страницы"
+    files:
+      - file: "index.html"
+        label: "Главная"
+        name: "home"
+        fields:
+          - {label: "Заголовок", name: "title", widget: "string"}
+          - {label: "Текст", name: "body", widget: "markdown"}
